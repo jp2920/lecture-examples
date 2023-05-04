@@ -3,10 +3,13 @@
 using namespace std; 
 
 // Pure abstract class
-class Printable{
+class Printable {
     public: 
         virtual void print() = 0;
 };
+
+// the job of an interface is to force derived classes to include this virtual functionality
+
 
 
 struct Point {
@@ -120,3 +123,5 @@ int main() {
 
     return 0;
 }
+
+// 
